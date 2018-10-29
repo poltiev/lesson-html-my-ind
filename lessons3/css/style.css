@@ -1,0 +1,36 @@
+
+ol, ul {
+	/*list-style: none;*/
+	/*margin: 0;*/
+	/*padding: 0;*/
+}
+
+li {
+
+}
+nav > ol {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+nav ol > li > ol {
+	list-style: upper-latin;
+}
+
+nav ol ol ol {
+
+}
+
+.menu {
+	font-size: 1.22em;
+}
+
+.main__menu {
+	color: green;
+}
+
+.menu.main__menu {
+	font-size: 0.8em;
+}
+
+
