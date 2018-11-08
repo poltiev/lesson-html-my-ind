@@ -18,18 +18,14 @@ display: block;
 
 
 .border {
-	border: 1px solid red;
 
-	max-width: 600px;
-	min-width: 350px;
-	height: 100px;
-	padding: 10px;
-	box-sizing: border-box;
+	border: 1px solid red;
+	width: 300px;
+	padding: 15px;
 }
 
 .new {
 	background-color: #c8ffab;
-	border: 1px solid transparent;
+	/*border: 1px solid transparent;*/
 	width: 300px;
-	display: inline-block;
 }
