@@ -20,9 +20,10 @@ body {
 	width: 980px;
 	margin: 0 auto;
 	padding: 0 15px;
-
 }
-
+.container-two {
+	padding: 0 70px;
+}
 .main-nav ul {
 	margin: 0;
 	padding: 0;
@@ -52,4 +53,85 @@ body {
 	flex-grow: 1;
 	color: #fff;
 	text-decoration: none;
+}
+.padge-title {
+	display: flex;
+}
+h1 {
+	color: #2853ff;
+	font-family: 'Roboto Condensed';
+	font-size: 2em;
+	font-weight: 300;
+	border-bottom: 1px solid #2853ff;
+	line-height: 0.8em;
+}
+.annotation {
+	padding: 0 110px;
+}
+.annotation h3 {
+	font-size: 14pt;
+	font-weight: normal;
+	color: #2853ff;
+}
+.readmore {
+	text-align: right;
+}
+.readmore a {
+	color: #000;
+	text-decoration: none;
+}
+.readmore a:hover {
+	text-decoration: underline;
+	color: #2853ff;
+}
+.first-tab__hader {
+	display: flex;
+	margin: 0 -5px;
+}
+.first-tab__head-input {
+	background-color: #999;
+	color: #333;
+	text-align: center;
+	margin: 0 5px;
+	padding: 5px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	font-family: 'Roboto Condensed';
+	font-size: 0.8em;
+}
+.first-tab__head-input span {
+	display: block;
+	text-transform: uppercase;
+}
+.first-tab__head-input.active span {
+	color: #2853ff;
+}
+.line {
+	margin: 0;
+}
+
+.first-tab__content {
+	margin-top: 60px;
+	display: flex;
+}
+
+.first-tab_cont-fig {
+	margin: 0;
+	flex-basis:30%;
+}
+.first-tab_cont-fig img {
+	width: 100%;
+}
+.first-tab__content-text {
+	margin-left: 40px;
+	flex-basis: 70%;
+}
+.first-tab__content-text h2 {
+	margin: 0;
+	text-align: center;
+}
+.first-tab__content-text p {
+	text-align: justify;
+	text-indent: 2em;
+	font-size: 0.9em;
 }
