@@ -1,0 +1,65 @@
+.content {
+	width: 1024px;
+	margin: auto;
+	border: 1px solid red;
+	position: relative;
+}
+.top-head {
+	position: relative;
+	background-color: #999999;
+	height:200px;
+}
+.top-nav {
+	background: #1f1f1f;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+}
+.top-nav a {
+	padding: 5px;
+	color: #ffffff;
+}
+.shadow {
+	display: none;
+	background-color: rgba(0, 0, 0, .5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right:0;
+	bottom: 0;
+	z-index: 99999;
+}
+.open {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.popup {
+	background-color: #fff;
+	border: 1px solid #000000;
+	padding: 20px;
+}
+
+table {
+	/*border: 1px solid #333;*/
+	/*border-collapse: collapse;*/
+	width: 500px;
+	border-spacing: 30px 20px;
+}
+table td {
+	border: 1px solid #333;
+	padding: 20px;
+	margin: 20px;
+	text-align: center;
+}
+td.first {
+	width: 350px;
+}
+.two {
+	width: 250px;
+}
+.three {
+	width: 250px;
+}
